@@ -1,8 +1,8 @@
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
-    define(['exports', 'babel-runtime/helpers/typeof', 'babel-runtime/regenerator', 'babel-runtime/helpers/asyncToGenerator'], factory);
+    define(['exports', '@babel/runtime/helpers/typeof', '@babel/runtime/regenerator', '@babel/runtime/helpers/asyncToGenerator'], factory);
   } else if (typeof exports !== "undefined") {
-    factory(exports, require('babel-runtime/helpers/typeof'), require('babel-runtime/regenerator'), require('babel-runtime/helpers/asyncToGenerator'));
+    factory(exports, require('@babel/runtime/helpers/typeof'), require('@babel/runtime/regenerator'), require('@babel/runtime/helpers/asyncToGenerator'));
   } else {
     var mod = {
       exports: {}
